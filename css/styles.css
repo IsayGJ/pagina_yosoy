@@ -1,6 +1,3 @@
-body{
-    font-family: 'Gabriela', serif;
-}
 
 /* Posicion de la imagen principal de la pagina  */
 .p-img-top{
@@ -17,22 +14,29 @@ body{
 /* Texto del nav seleccionado*/
 .txt-nav-a{
     color: black;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Texto del nav no seleccionado*/
 .txt-nav{
    color: #999;
-   font-size: 18px;
+   font-size: 16px;
 }
 
 .nav-link:hover{
     color: black;
 }
 
+/* Texto del boton en dispositivos pequeños */
 .txt-btn-menu{
     color: black;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+/* Imagen principal de la seccion Ama Conocerte */
+.img-ac{
+    width: 55%;
+    margin-top: 1rem;
 }
 
 /* Parte del titulo */
@@ -70,11 +74,11 @@ body{
 
 /* Tamaño iconos footer */
 .size-icon-f{
-    font-size: 2rem;
-    color: #333333;
+    font-size: 1.5rem;
+    color: #999;
 }
 
 .size-icon-f:hover{
-    font-size: 2rem;
-    color: #999;
+    font-size: 1.5rem;
+    color: #333333;
 }
