@@ -58,22 +58,64 @@
     </ul>
   </div>  
 
-  <div id="phone_nav" class="d-sm-block d-md-none" style="text-align: center;">
-    <p>    
-      <button class="btn btn-m-s txt-btn-menu" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Menú
-      </button>
+  <div id="phone_nav" class="d-sm-block d-md-none" style="text-align: center;">    
+    <p>
+      <button class="btn btn-m-s txt-btn-menu" type="button" data-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseMenu">
+        Menu
+      </button>      
     </p>
-    <div class="collapse" id="collapseExample">
-      <div class="">
-        <a class="nav-link txt-nav" href="#">AMA CONOCERTE</a>
-        <a class="nav-link txt-nav" href="#">NUMEROLOGÍA</a>
-        <a class="nav-link txt-nav" href="#">MEDITACIONES</a>
-        <a class="nav-link txt-nav" href="#">CONÓCEME</a>
-        <a class="nav-link txt-nav" href="#">REFLEXIONES</a>
-        <a class="nav-link txt-nav" href="#">CONTACTO</a>
+    <div class="collapse" id="collapseMenu">
+      <div>
+        <p>
+          <a class="nav-link txt-nav" data-toggle="collapse" href="#collapseAc" role="button" aria-expanded="false" aria-controls="collapseAc">
+            AMA CONOCERTE +
+          </a> 
+          <a class="nav-link txt-nav" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="">
+            NUMEROLOGÍA
+          </a>
+          <a class="nav-link txt-nav" data-toggle="collapse" href="#collapseM" role="button" aria-expanded="false" aria-controls="collapseM">
+            MEDITACIONES +
+          </a>
+          <a class="nav-link txt-nav" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="">
+            CONÓCEME
+          </a>
+          <a class="nav-link txt-nav" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="">
+            REFLEXIONES
+          </a>
+          <a class="nav-link txt-nav" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="">
+            CONTACTO
+          </a>      
+        </p>
+
+        <div class="collapse" id="collapseAc">          
+          <div>
+            <ul class="list-btn-s">
+              <li>
+                <a class="txt-sections-btn-s" href="#ac_1">- ¿CÓMO NACE ESTA IDEA?</a>
+              </li>
+              <li>
+                <a class="txt-sections-btn-s" href="#ac_2">- INTRODUCCIÓN</a>
+              </li>
+            </ul>           
+          </div>
+        </div>
+
+        <div class="collapse" id="collapseM">          
+          <div>
+            <ul class="list-btn-s">
+              <li>
+                <a class="txt-sections-btn-s" href="#ac_1">- ALGO</a>
+              </li>
+              <li>
+                <a class="txt-sections-btn-s" href="#ac_2">- NUEVO</a>
+              </li>
+            </ul>           
+          </div>
+        </div>
+
       </div>
     </div>
+    
   </div>
   
   <div id="info_ac" class="container" style="text-align: center;">

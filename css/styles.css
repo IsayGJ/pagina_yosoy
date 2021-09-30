@@ -11,6 +11,34 @@
     border-color: #999;
 }
 
+/* Texto del boton en dispositivos pequeños */
+.txt-btn-menu{
+    color: black;
+    font-size: 16px;
+    font-family: Futura;
+}
+
+/* Texto de las secciones del boton en dispositivos pequeños */
+.txt-sections-btn-s{
+    color: #999;
+    font-size: 16px;
+    background-color: transparent !important;
+}
+
+.txt-sections-btn-s:hover{
+    color: #999;
+    font-size: 16px;
+    background-color: transparent !important;
+    text-decoration: none;
+}
+
+.list-btn-s{
+    list-style: none;
+    margin-top: -1rem;
+    text-align: justify;
+    margin-left: 8rem;
+}
+
 /* Texto del nav seleccionado*/
 .txt-nav-a{
     color: black;
@@ -26,12 +54,6 @@
 
 .nav-link:hover{
     color: black;
-}
-
-/* Texto del boton en dispositivos pequeños */
-.txt-btn-menu{
-    color: black;
-    font-size: 16px;
 }
 
 /* Imagen principal de la seccion Ama Conocerte */
@@ -101,3 +123,5 @@
     margin-left: -2rem;
     text-align: center;
 }
+
+
