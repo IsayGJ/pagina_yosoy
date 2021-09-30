@@ -19,16 +19,27 @@
     </style>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>    
+<body>   
   <div class="text-center p-img-top">
     <img class="img-fluid" src="image/florsies.jpg" style="width: 20%;">
   </div>
 
   <div id="top_nav" class="d-none d-md-block">
-    <ul class="nav justify-content-center" style="font-family: Futura;">
+    <ul class="nav justify-content-center" style="font-family: Futura;">      
       <li class="nav-item">
-        <a class="nav-link txt-nav-a active" href="#">AMA CONOCERTE</a>
+        <div id="drop_ac" class="dropdown">
+          <a class="nav-link txt-nav-a active" id="dropDownAmaConocerte" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
+            AMA CONOCERTE
+          </a>
+          <div class="dropdown-menu m-dropmenu" aria-labelledby="dropDownAmaConocerte">
+            <a class="dropdown-item txt-nav" href="#ac_1">¿CÓMO NACE ESTA IDEA?</a>
+            <a class="dropdown-item txt-nav" href="#ac_2">INTRODUCCIÓN</a>            
+          </div>
+        </div>
       </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link txt-nav-a active" href="#">AMA CONOCERTE</a>        
+      </li> -->
       <li class="nav-item">
         <a class="nav-link txt-nav" href="#">NUMEROLOGÍA</a>
       </li>
@@ -73,7 +84,7 @@
         <p id="txt_img_ac">Serie de cursos</p>       
         <p class="txt-title-info">A ti, que eres un</p>
         <p class="txt-title">Buscador del BIEN...</p>       
-        <p class="txt-title">¿Cómo nace esta idea?</p>
+        <p id="ac_1" class="txt-title">¿Cómo nace esta idea?</p>
         <p class="txt-info"><b>De descubrir que AMAR es la FUERZA mas poderosa y extraordinaria que existe para cambiar nuestras Vidas, porque AMAR es ENTENDER quien en verdad somos.</b></p>
         <p class="txt-info">En consecuencia, cuando conoces más acerca de ti, de la Verdad que te conforma, de tu Poder, estas comenzando a AMARTE.</p>
         <p class="txt-title">AMA CONOCERTE</p>
@@ -88,7 +99,7 @@
         <p class="txt-info">Hoy mas que nunca, es tiempo de ABASTECERNOS de Amor, para poder seguir dándole vida al Bien en nuestras experiencias.</p>
         <p class="txt-info">Siempre estamos en posición de CAMBIAR cualquier condición que estemos experimentando, si trabajamos en DIRIGIR nuestra fuerza para CREAR aquello que si deseamos experimentar.</p>
         <p class="txt-info">Deja que tu corazón active el Bien que te conforma, conectándote con el Amor (el Bien en acción) que es la fuerza mas poderosa -y desconocida, a la que se refería Einstein.</p>
-        <p class="txt-title">Si tu cambias, cambia tu mundo</p>
+        <p id="ac_2" class="txt-title">Si tu cambias, cambia tu mundo</p>
         <p class="txt-info">Partiendo de esta principio, te invito a recorrer un nuevo camino.</p>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/5K9om8bRi3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
@@ -129,7 +140,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="main.js"></script>
-  
+  <script src="main.js"></script> 
 </body>
 </html>
