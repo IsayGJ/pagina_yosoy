@@ -16,6 +16,7 @@
     <style>
         @font-face { font-family: GemunuLibre; src: url('font/GemunuLibre.ttf'); }        
         @font-face { font-family: Futura; src: url('font/FuturaPTBook.otf'); }        
+        @font-face { font-family: MadinaScript; src: url('font/MadinaScript.ttf'); }        
     </style>
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -34,12 +35,10 @@
           <div class="dropdown-menu m-dropmenu" aria-labelledby="dropDownAmaConocerte">
             <a class="dropdown-item txt-nav" href="#ac_1">¿CÓMO NACE ESTA IDEA?</a>
             <a class="dropdown-item txt-nav" href="#ac_2">INTRODUCCIÓN</a>            
+            <a class="dropdown-item txt-nav" href="#ac_2">TEMARIO</a>            
           </div>
         </div>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link txt-nav-a active" href="#">AMA CONOCERTE</a>        
-      </li> -->
+      </li>      
       <li class="nav-item">
         <a class="nav-link txt-nav" href="#">NUMEROLOGÍA</a>
       </li>
@@ -47,11 +46,14 @@
         <a class="nav-link txt-nav" href="#">MEDITACIONES</a>
       </li> 
       <li class="nav-item">
-        <a class="nav-link txt-nav" href="#">CONÓCEME</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link txt-nav" href="#">REFLEXIONES</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link txt-nav" href="#">LIBROS</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link txt-nav" href="#">CONÓCEME</a>
+      </li>     
       <li class="nav-item">
         <a class="nav-link txt-nav" href="#">CONTACTO</a>
       </li>     
@@ -120,37 +122,59 @@
   
   <div id="info_ac" class="container" style="text-align: center;">
     <div class="row">
-      <div class="col-2"></div>
-      <div class="col-8"> 
-        <img id="img_ac" src="image/amaconocerte.png" class="img-fluid img-ac" alt="Responsive image">
-        <p id="txt_img_ac">Serie de cursos</p>       
-        <p class="txt-title-info">A ti, que eres un</p>
-        <p class="txt-title">Buscador del BIEN...</p>       
-        <p id="ac_1" class="txt-title">¿Cómo nace esta idea?</p>
-        <p class="txt-info"><b>De descubrir que AMAR es la FUERZA mas poderosa y extraordinaria que existe para cambiar nuestras Vidas, porque AMAR es ENTENDER quien en verdad somos.</b></p>
-        <p class="txt-info">En consecuencia, cuando conoces más acerca de ti, de la Verdad que te conforma, de tu Poder, estas comenzando a AMARTE.</p>
-        <p class="txt-title">AMA CONOCERTE</p>
-        <p class="txt-title-info">para cambiar tu Vida.</p>
-        <p class="txt-title-info">Tenemos el poder de CREAR conscientemente nuestras experiencias a través de lo que pensamos y sentimos como verdad.</p>
-        <p class="txt-info">Así que no es el destino ni la suerte los que determinan nuestras experiencias...</p>
-        <p class="txt-info"><b>ES NUESTRO CARACTER el que determina nuestros pensamientos y sentimientos habituales, y con ello, nuestras vivencias.</b></p>
-        <p class="txt-info">Vivir sin conocernos, sin trabajar en el dominio del CARÁCTER sólo aumenta el factor de "RIESGOS", es decir, de experiencias no deseadas en la Vida.</p>
-        <p class="txt-info">Si deseas CAMBIAR tus relaciones, tus finanzas, tu profesión o tu cuerpo (la expresion de tu Salud), sólo hay un camino:</p>
-        <p class="txt-info"><b>TRABAJAR EN TI PARA GOBERNAR TU CARÁCTER</b></p>
-        <p class="txt-info">y eliminar todos los modelos mentales limitados que tenemos acerca de nosotros mismos, para que podamos RECONOCER nuestra GRANDEZA y entonces, EXPRESARLA en cada una de nuestras experiencias</p>
-        <p class="txt-info">Hoy mas que nunca, es tiempo de ABASTECERNOS de Amor, para poder seguir dándole vida al Bien en nuestras experiencias.</p>
-        <p class="txt-info">Siempre estamos en posición de CAMBIAR cualquier condición que estemos experimentando, si trabajamos en DIRIGIR nuestra fuerza para CREAR aquello que si deseamos experimentar.</p>
-        <p class="txt-info">Deja que tu corazón active el Bien que te conforma, conectándote con el Amor (el Bien en acción) que es la fuerza mas poderosa -y desconocida, a la que se refería Einstein.</p>
-        <p id="ac_2" class="txt-title">Si tu cambias, cambia tu mundo</p>
-        <p class="txt-info">Partiendo de esta principio, te invito a recorrer un nuevo camino.</p>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5K9om8bRi3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
-        </div>       
-        <p class="txt-info">Si deseas conocer más sobre los Cursos (temario, costos, horarios) dale click a este boton rojo</p>
-        <button type="button" class="btn btn-danger">PROGRAMA CURSO AMA CONOCERTE</button>
-      </div>
-      <div class="col-2"></div>
+        <div class="col-2"></div>
+          <div class="col-8"> 
+              <img id="img_ac" src="image/amaconocerte.png" class="img-fluid img-ac" alt="Responsive image">
+              <p id="txt_img_ac">Serie de cursos</p>       
+              <p class="txt-title-info">A ti, que eres un</p>
+              <p class="txt-title">Buscador del <span style="font-family: MadinaScript;font-weight: 100;">BIEN</span>...</p>       
+              <p id="ac_1" class="txt-title">¿Cómo nace esta idea?</p>
+              <p class="txt-info"><b>De descubrir que <span style="font-family: MadinaScript;font-weight: 100;">AMAR</span> es la <span style="font-family: MadinaScript;font-weight: 100;">fuerza</span> mas poderosa y extraordinaria que existe para cambiar nuestras Vidas, porque AMAR es ENTENDER quien en verdad somos.</b></p>
+              <p class="txt-info">En consecuencia, cuando conoces más acerca de ti, de la Verdad que te conforma, de tu Poder, estas comenzando a AMARTE.</p>        
+          </div>
+        <div class="col-2"></div>
     </div>
+  </div>
+
+  <div class="container">
+      <div class="row">  
+          <div class="col-6">
+              <img id="img_ac" src="image/ac_1.jpg" class="img-fluid" alt="Responsive image">
+          </div>          
+          <div class="col-6" style="text-align: end;">
+              <p class="txt-title">AMA CONOCERTE</p>
+              <p class="txt-title-info">para cambiar tu <span style="font-family: MadinaScript;font-weight: 100;">Vida</span>.</p>
+              <p class="txt-title-info">Tenemos el poder de CREAR conscientemente nuestras experiencias a través de lo que pensamos y sentimos como verdad.</p>
+              <p class="txt-info">Así que no es el destino ni la suerte los que determinan nuestras experiencias...</p>
+              <p class="txt-info"><b>ES NUESTRO CARACTER el que determina nuestros pensamientos y sentimientos habituales, y con ello, nuestras vivencias.</b></p>
+              <p class="txt-info">Vivir sin conocernos, sin trabajar en el dominio del CARÁCTER sólo aumenta el factor de "RIESGOS", es decir, de experiencias no deseadas en la Vida.</p>
+              <p class="txt-info">Si deseas CAMBIAR tus relaciones, tus finanzas, tu profesión o tu cuerpo (la expresion de tu Salud), sólo hay un camino:</p>                
+          </div>            
+      </div>
+  </div>
+
+  <div class="container mt-5">
+      <p class="txt-info"><b>TRABAJAR EN TI PARA GOBERNAR TU CARÁCTER</b></p>
+      <p class="txt-info">y eliminar todos los modelos mentales limitados que tenemos acerca de nosotros mismos, para que podamos RECONOCER nuestra GRANDEZA y entonces, EXPRESARLA en cada una de nuestras experiencias</p>
+      <p class="txt-info">Hoy mas que nunca, es tiempo de ABASTECERNOS de Amor, para poder seguir dándole vida al Bien en nuestras experiencias.</p>
+      <p class="txt-info">Siempre estamos en posición de CAMBIAR cualquier condición que estemos experimentando, si trabajamos en DIRIGIR nuestra fuerza para CREAR aquello que si deseamos experimentar.</p>
+      <p class="txt-info">Deja que tu corazón active el Bien que te conforma, conectándote con el Amor (el Bien en acción) que es la fuerza mas poderosa -y desconocida, a la que se refería Einstein.</p>
+  </div>
+
+  <div class="container" style="text-align: center;">
+      <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8"> 
+              <p id="ac_2" class="txt-title">Si tu cambias, cambia tu mundo</p>
+              <p class="txt-info">Partiendo de esta principio, te invito a recorrer un nuevo camino.</p>
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/5K9om8bRi3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+              </div>       
+              <p class="txt-info">Si deseas conocer más sobre los Cursos (temario, costos, horarios) dale click a este boton rojo</p>
+              <button type="button" class="btn btn-danger">PROGRAMA CURSO AMA CONOCERTE</button>
+          </div>
+          <div class="col-2"></div>
+      </div>
   </div>
 
   
@@ -159,7 +183,7 @@
       <div class="row">        
         <div class="col-md-12 mt-5">
           <div class="text-center"> 
-            <img class="img-fluid" src="image/vf-solo.png" style="width: 25%;">          
+            <img class="img-fluid" src="image/vf-solo.png" style="width: 35%;">          
           </div>
         </div>
       </div>
